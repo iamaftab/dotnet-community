@@ -11,35 +11,44 @@ namespace DotNetCommunity.Forums
 {
 
 
-    public partial class SearchArticle
+    public partial class PostProject
     {
 
         /// <summary>
-        /// TxtSearch control.
+        /// LblPojectId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtSearch;
+        protected global::System.Web.UI.WebControls.Label LblPojectId;
 
         /// <summary>
-        /// BtnSearch control.
+        /// TxtProjectType control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnSearch;
+        protected global::System.Web.UI.WebControls.TextBox TxtProjectType;
 
         /// <summary>
-        /// GvArticle control.
+        /// FileUploadId control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GvArticle;
+        protected global::System.Web.UI.WebControls.FileUpload FileUploadId;
+
+        /// <summary>
+        /// BtnUpload control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnUpload;
 
         /// <summary>
         /// LblErrorMsg control.

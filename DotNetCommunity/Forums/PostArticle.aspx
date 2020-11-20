@@ -5,15 +5,13 @@
     <div class="d-flex justify-content-center">
         <table>
             <tr>
-                <td>Article Id: 
-                    <asp:Label ID="LblArtiId" runat="server"></asp:Label>
-                </td>
+                <td>Article Id: </td>
                 <td>
-                    <asp:Label ID="ArtiId" runat="server"></asp:Label>
+                    <asp:Label ID="LblArtiId" runat="server"></asp:Label>
                 </td>
             </tr>
             <tr>
-                <td>Article type: </td>
+                <td>Article Type: </td>
                 <td>
                     <asp:TextBox ID="TxtArtiType" runat="server" Width="265px"></asp:TextBox>
                 </td>

@@ -50,8 +50,8 @@
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Projects 
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink3">
-                            <a class="dropdown-item" href="UploadProject">Upload Project</a>
-                            <a class="dropdown-item" href="SearchProjects">View/Search Projects</a>
+                            <a class="dropdown-item" href="PostProject">Upload Project</a>
+                            <a class="dropdown-item" href="SearchProject">View/Search Projects</a>
                         </div>
                     </li>
                     <li class="nav-item">

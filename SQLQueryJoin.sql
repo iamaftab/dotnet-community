@@ -11,4 +11,9 @@ From Forums F
 	Inner Join Login L On FR.LoginId= L.LoginId;
 
 Select A.ArticleType, A.ArticleDesc, A.CDate AS "Posted Date", L.Name AS "Posted By" From Article A
-	Inner Join Login L On A.LoginId= L.LoginId;
+	Inner Join Login L On A.LoginId= L.LoginId
+Where A.ArticleType = 'asp.net';
+
+Select P.ProjectType, P.FileName, P.FileType, L.Name AS "Posted By" From Project P
+	Inner Join Login L On P.LoginId= L.LoginId
+Where P.ProjectType = 'Web api';

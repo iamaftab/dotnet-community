@@ -118,8 +118,10 @@
     <Content Include="Content\Site.css" />
     <Content Include="Forums\PostAQuery.aspx" />
     <Content Include="Forums\PostArticle.aspx" />
+    <Content Include="Forums\PostProject.aspx" />
     <Content Include="Forums\ReplyForum.aspx" />
     <Content Include="Forums\SearchArticle.aspx" />
+    <Content Include="Forums\SearchProject.aspx" />
     <Content Include="Forums\ViewAllAnsweredQuestion.aspx" />
     <Content Include="Forums\ViewAllArticle.aspx" />
     <Content Include="Forums\ViewAllQuestionMaster.aspx" />
@@ -228,6 +230,13 @@
     <Compile Include="Forums\PostArticle.aspx.designer.cs">
       <DependentUpon>PostArticle.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Forums\PostProject.aspx.cs">
+      <DependentUpon>PostProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forums\PostProject.aspx.designer.cs">
+      <DependentUpon>PostProject.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Forums\ReplyForum.aspx.cs">
       <DependentUpon>ReplyForum.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -241,6 +250,13 @@
     </Compile>
     <Compile Include="Forums\SearchArticle.aspx.designer.cs">
       <DependentUpon>SearchArticle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Forums\SearchProject.aspx.cs">
+      <DependentUpon>SearchProject.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Forums\SearchProject.aspx.designer.cs">
+      <DependentUpon>SearchProject.aspx</DependentUpon>
     </Compile>
     <Compile Include="Forums\ViewAllAnsweredQuestion.aspx.cs">
       <DependentUpon>ViewAllAnsweredQuestion.aspx</DependentUpon>
@@ -333,6 +349,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Uploaded_Projects\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

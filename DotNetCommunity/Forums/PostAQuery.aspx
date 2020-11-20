@@ -7,9 +7,11 @@
             <table class="d-flex justify-content-center">
                 <tbody>
                     <tr>
-                        <td>Question Id</td>
+                        <td>Question Id : </td>
                         <td>
-                            <asp:Label ID="qIdLbl" runat="server"></asp:Label></td>
+                            <asp:Label ID="qIdLbl" runat="server"></asp:Label>
+
+                        </td>
                     </tr>
                     <tr>
                         <td>Question</td>

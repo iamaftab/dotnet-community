@@ -1,5 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="SearchArticle.aspx.cs" Inherits="DotNetCommunity.Forums.SearchArticle" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site2.Master" AutoEventWireup="true" CodeBehind="SearchProject.aspx.cs" Inherits="DotNetCommunity.Forums.SearchProject" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -8,6 +7,8 @@
             Enter Keyword :
             <asp:TextBox ID="TxtSearch" runat="server" CssClass="mx-2"></asp:TextBox>
             <asp:Button ID="BtnSearch" runat="server" Text="Search" OnClick="BtnSearch_Click" />
+        &nbsp; OR&nbsp;
+            <asp:Button ID="BtnViewAllProjects" runat="server" OnClick="BtnViewAllProjects_Click" Text="View All Projects " />
         </div>
         <br />
         <div class="d-flex justify-content-center">

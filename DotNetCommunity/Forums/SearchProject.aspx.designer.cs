@@ -11,7 +11,7 @@ namespace DotNetCommunity.Forums
 {
 
 
-    public partial class SearchArticle
+    public partial class SearchProject
     {
 
         /// <summary>
@@ -31,6 +31,15 @@ namespace DotNetCommunity.Forums
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button BtnSearch;
+
+        /// <summary>
+        /// BtnViewAllProjects control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button BtnViewAllProjects;
 
         /// <summary>
         /// GvArticle control.
